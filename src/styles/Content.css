@@ -31,7 +31,7 @@
                     margin-top: 1%;
                 }
                 .Upper-header{
-                    background-color: red;
+                    background-color: black;
                     height: 45%;
                     font-size: 100%;
                     color: white;
@@ -51,6 +51,30 @@
                     animation: slideRightToLeft 30s linear infinite;
                     /* overflow-x: hidden;  */
                 }
+                
+                .Upper-body-text{
+                    white-space: nowrap;
+                    text-overflow: clip;
+                    font-size: large;
+                }
+                .Upperbody-text{
+                    white-space: nowrap;
+                    text-overflow: clip;
+                    text-transform: uppercase;
+                    font-size: xx-large;
+                    color: blue;
+                    font-family: 'Oswald', sans-serif;
+                }
+                .Upperbody{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    animation: slideRightToLeft 10s linear infinite;
+                    /* overflow-x: hidden;  */
+                }
+
                 @keyframes slideRightToLeft {
                     0% {
                       transform: translateX(100%);
@@ -59,13 +83,6 @@
                       transform: translateX(-100%);
                     }
                 }
-                .Upper-body-text{
-                    white-space: nowrap;
-                    text-overflow: clip;
-                    font-size: large;
-                }
-
-
 
                 
 
@@ -110,7 +127,7 @@
                 }
                 .heading{
                     height: 15%;
-                    background-color: red;
+                    background-color: black;
                     border-radius: 8px 8px 0px 0px;
                     color: white;
                     font-size: 150%;
@@ -143,6 +160,7 @@
 /* OTHER REFERENCES BAR  */
                 .Other-resources{
                     margin-bottom: 2%;
+                    margin-top: 5%;
                 }
                 .Other-resources a{
                     color: black;

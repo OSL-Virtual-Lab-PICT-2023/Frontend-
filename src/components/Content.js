@@ -31,11 +31,10 @@ const Content = () => {
     <div className='Background'>
       <div className='Page'>
         <div className='mainpage'>
-              <div className='Uppermost-mainpage'>
-                <div className='Upper-header'>Recent Trends In OS</div>
-                <div className='Upper-body'>
-                  <div className='Upper-body-text'>
-                  The idea of virtual laboratory is to provide students a chance to perform experiments using the internet and visual aids without having the equipments at their end. The Virtual lab program presents a unique opportunity to boost the quality of engineering education, deepen understanding, and provide the necessary practical skills to young minds through cost effective outreach and distance learning activities.
+        <div className='Uppermostmainpage'>
+                <div className='Upperbody'>
+                  <div className='Upperbody-text'>
+                  WELCOME To the operating Systems Virtual Lab by PICT
                   </div>
                 </div>
               </div>
@@ -49,7 +48,7 @@ const Content = () => {
                       <div className='heading'>
                         About
                       </div>
-                      <div className='writeup'>The idea of virtual laboratory is to provide students a chance to perform experiments using the internet and visual aids without having the equipments at their end. The Virtual lab program presents a unique opportunity to boost the quality of engineering education, deepen understanding, and provide the necessary practical skills to young minds through cost effective outreach and distance learning activities.                  
+                      <div className='writeup'>Welcome to the Pune Institute of Computer Technology's Operating System Virtual Lab. Our web-based platform offers a range of interactive experiments for students and enthusiasts to explore operating system concepts, providing real-world experience in process management, memory allocation, file systems, and more. Accessible anytime, this customizable and community-driven lab fosters knowledge-sharing, research opportunities, and practical skills development. Join us to unlock the full potential of operating systems and prepare for a successful career in the field of computer science.                  
                       </div>
                     </div>
                     <div className='info1'>
@@ -57,7 +56,7 @@ const Content = () => {
                           Objectives
                         </div>
                         <div className='writeup'>
-                        The idea of virtual laboratory is to provide students a chance to perform experiments using the internet and visual aids without having the equipments at their end. The Virtual lab program presents a unique opportunity to boost the quality of engineering education, deepen understanding, and provide the necessary practical skills to young minds through cost effective outreach and distance learning activities.
+                          Our goal is to provide an accessible, interactive, and comprehensive platform for students and enthusiasts to deepen their understanding of operating systems. We aim to facilitate practical learning, research opportunities, and knowledge-sharing, empowering individuals to excel in computer science and related fields by gaining hands-on experience in operating system concepts.
                         </div>
                     </div>
                 </div>
@@ -74,7 +73,14 @@ const Content = () => {
                           </div>
                 </div>
               </div>  
-              
+              <div className='Uppermost-mainpage'>
+                <div className='Upper-header'>Recent Trends In OS</div>
+                <div className='Upper-body'>
+                  <div className='Upper-body-text'>
+                  The idea of virtual laboratory is to provide students a chance to perform experiments using the internet and visual aids without having the equipments at their end. The Virtual lab program presents a unique opportunity to boost the quality of engineering education, deepen understanding, and provide the necessary practical skills to young minds through cost effective outreach and distance learning activities.
+                  </div>
+                </div>
+              </div>
               <div className='Other-resources'>
                     <div className='heading'>Other Important Resources</div>
                     <div className='textbody'>
