@@ -9,7 +9,7 @@
 
 /* MAIN BODY  */
 .lala{
-  background-color: black;
+  background-color: grey;
   padding: 0% 7%;
   height: 100vh;
   display: flex;
@@ -18,7 +18,7 @@
 }
 .bg{
     border-radius: 30px;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 10px #6adede;
     width: 100%;
     height: 90%
 }
@@ -88,9 +88,10 @@
     height: 80vh;
     background-color: white;
     padding: 1% 1%;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 10px white;
     border-radius: 0px 10px 10px 0px;
     overflow-y: auto;
+    
 }
 .text-login{
     text-align: center;
@@ -98,7 +99,8 @@
     font-size:x-large;
     margin: 10% 0% 5% 0%;
     background-color: white;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto Slab', serif;
+
 }
 .label1 {
   display: block;

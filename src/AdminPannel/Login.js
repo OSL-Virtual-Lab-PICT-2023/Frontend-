@@ -74,7 +74,7 @@ const Login = () => {
 
           <div className='left-side'>
             <div className='left-main'>
-            <img className='MAIN_LOGO' src='MAINLOGO.jpg' alt='Your Image' />
+            <img className='MAIN_LOGO' src='MAINLOGO.png' alt='Your Image' />
             {/* <img src='pict_logo.png' alt='Your Image' /> */}
             </div>
           </div>

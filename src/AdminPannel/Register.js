@@ -72,7 +72,7 @@ const Register = () => {
       <div className='login-first-div'>
         <div className='left-side'>
           <div className='left-main'>
-          <img src='MAIN_LOGO.png' alt='Your Image' />
+          <img src='MAINLOGO.png' alt='Your Image' />
           </div>
         </div>
 

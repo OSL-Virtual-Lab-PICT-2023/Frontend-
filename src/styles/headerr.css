@@ -3,13 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "jost", sans-serif;
+    font-family: 'Aclonica', sans-serif;
     -webkit-tap-highlight-color: transparent;
 }
 .Main-bar{
     height: 17vh;
     width: 100%;
-    background-color: grey;
+    background-color: #6adede;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,13 +22,17 @@
 
 .Website-title{
     text-align: center;
-    font-family: Courier New, monospace;
+    font-family: 'Aclonica', sans-serif;
     font-size: x-large;
+    font-family: 'Oswald', sans-serif;
+
+
     color: blue;
 }
 .Title{
     text-align: center;
     font-size: xx-large;
+    font-family: 'Aclonica', sans-serif;
     color: red;
 }
 
