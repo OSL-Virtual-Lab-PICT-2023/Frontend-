@@ -122,9 +122,11 @@ const Login = () => {
                 <button type='submit' className='signup'>
                   SIGN IN
                 </button>
+                <div className='End-msg'>
                   Don't have an account? <span className='signup-button' onClick={signup}>
                     Sign-Up
                   </span>
+                  </div>
               </div>
               
             </form>

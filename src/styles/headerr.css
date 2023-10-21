@@ -7,12 +7,32 @@
     -webkit-tap-highlight-color: transparent;
 }
 .Main-bar{
-    height: 10vh;
+    height: 17vh;
     width: 100%;
     background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .Website-Logo img{
-    height: 10vh;
+    height: 15vh;
+    width: auto;
+}
+
+.Website-title{
+    text-align: center;
+    font-family: Courier New, monospace;
+    font-size: x-large;
+    color: blue;
+}
+.Title{
+    text-align: center;
+    font-size: xx-large;
+    color: red;
+}
+
+.College-logo img{
+    height: 15vh;
     width: auto;
 }
