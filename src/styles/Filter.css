@@ -32,6 +32,7 @@
 
 .activee {
     opacity: 1;
-    background-color: rgb(167, 198, 131);
-    border-color: rgb(10, 9, 9);
+    background-color: red;
+    color: white;
+    /* border-color: rgb(10, 9, 9); */
 }

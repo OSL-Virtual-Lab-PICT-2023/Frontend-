@@ -97,19 +97,17 @@ const Content = () => {
                               Contact Us
                             </div>
                             <div className='Lower-body'>
-                              Phone No: 12345678
+                              Phone No: 020 2437 2041
                               <br></br>
                               E-mail :  abcd123@gmail.com
                             </div>
                         </div>
                         <div className='links'>
                           <div className='Lower-header'>
-                                Follow Us
+                                Address
                               </div>
                               <div className='Lower-body'>
-                                Phone No: 12345678
-                                <br></br>
-                                E-mail :  abcd123@gmail.com
+                              Survey No. 27, Near, Trimurti Chowk, Bharati Vidyapeeth Campus, Dhankawadi, Pune, Maharashtra 411043
                             </div>
 
                         </div>
