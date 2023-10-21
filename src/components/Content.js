@@ -33,7 +33,11 @@ const Content = () => {
         <div className='mainpage'>
               <div className='Uppermost-mainpage'>
                 <div className='Upper-header'>Recent Trends</div>
-                <div className='Upper-body'> </div>
+                <div className='Upper-body'>
+                  <div className='Upper-body-text'>
+                  The idea of virtual laboratory is to provide students a chance to perform experiments using the internet and visual aids without having the equipments at their end. The Virtual lab program presents a unique opportunity to boost the quality of engineering education, deepen understanding, and provide the necessary practical skills to young minds through cost effective outreach and distance learning activities.
+                  </div>
+                </div>
               </div>
               <div className='Upper-mainpage'>
                 
