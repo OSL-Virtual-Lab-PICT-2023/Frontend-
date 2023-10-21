@@ -1,5 +1,6 @@
 import React from 'react'
 import Content from './Content'
+import Headerr from './Headerr';
 import TeamSection from './TeamSection'
 import { toast } from "react-toastify";
 const Home1 = () => {
@@ -7,7 +8,7 @@ const Home1 = () => {
   return (
     <>
     <div>
-      <Header/>
+     <Headerr/>
      <Content/>  
      {/* <TeamSection /> */}
     </div>
