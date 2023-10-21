@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "jost", sans-serif;
+}
+
+.Background{
+    background-color: grey;
+}
+.Page{
+    margin: 0% 10% 0% 10%;
+    height: 100%;
+    padding: 0%;
+    background-color: white;
+}
+.mainpage{
+    /* border: 2px solid black; */
+    overflow-x: hidden;
+}
+
+
+/* UPPER MAIN PAGE  */
+                .Uppermost-mainpage{
+                    height: 15vh;
+                    margin: 0% 2%;
+                    margin-top: 1%;
+                    
+                }
+                .Upper-header{
+                    background-color: red;
+                    height: 30%;
+                    font-size: 100%;
+                    color: white;
+                    text-align: center;
+                    font-size:3.5vh;
+                    border-radius: 8px 8px 0px 0px;
+                }
+                .Upper-body{
+                }
+
+
+
+                .Upper-mainpage{
+                    display: flex;
+                    height: 100vh;
+                }
+
+                /* MAIN TABLE  */
+                .main-content{
+                    background-color: #6adede;
+                    width: 100%;
+                    overflow-y: auto;
+                    overflow-x: hidden;
+                    margin: 2%;
+                    padding: 0%;
+                }
+                .filterdata{
+                    background-color: black;
+                    overflow-x: hidden;
+                }
+
+
+                /* SIDE BARS  */
+                .info{
+                    width: 100%;
+                    max-width: 350px;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .info1{
+                    height: 30vh;
+                    max-height: 300px;
+                    border-radius: 8px;
+                    margin: 2%;
+                    margin-top: 8%;
+
+                }
+                .heading{
+                    height: 15%;
+                    min-height: 50px;
+                    background-color: red;
+                    border-radius: 8px 8px 0px 0px;
+                    color: white;
+                    font-size: 200%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .writeup{
+                    margin-left: 2%;
+                    height: 100%;
+                    overflow-y: auto;
+                }
+
+
+
+
+/* LOWER MAIN PAGE  */
+                .LongBar{
+                    width: 100%;
+                    height: 20vh;
+                    background-color: black;
+                    display: flex;
+
+                }
+                .contact{
+                    width: 100%;
+                    height: 100%;
+                    padding: 2%;
+                    color: white;
+                    border-right: 1px solid white;
+                }
+                .links{
+                    width: 100%;
+                    height: 100%;
+                    padding: 2%;
+                    color: white;
+                    border-right: 1px solid white;
+                }
+                .Social-media{
+                    width: 100%;
+                    height: 100%;
+                    padding: 2%;
+                    color: white;
+                    border-right: 1px solid white;
+                    
+                }
+
+                .Lower-header{
+                    margin-bottom: 5%;
+                    margin-left: 5%;
+                }
+                .Lower-body{
+                    margin-left: 5%;
+                }
+
+
+
+
+
+/* MEDIA QUERIES  */
+            @media (max-width: 1000px) {
+                .Page{
+                    margin: 0%;
+                }
+                .filterdata{
+                    display: flex;
+                    overflow-x: auto;
+                }
+                .Upper-mainpage{
+                    display: flex;
+                    flex-direction: column;
+                    height: 150vh;
+                }
+                .info{
+                    width: 100%;
+                    max-width: 1000px;
+                }
+
+                .LongBar{
+                    display: flex;
+                    flex-direction: column;
+                    overflow-x: auto;
+                }
+                .contact{
+                    border-bottom: 1px solid white;
+                }
+                .links{
+                    border-bottom: 1px solid white;
+                }
+                .Social-media{
+                    border-bottom: 1px solid white;
+                }
+            }
