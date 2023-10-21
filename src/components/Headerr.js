@@ -6,7 +6,7 @@ const Headerr = () => {
     <>
     <div className='Main-bar'>
         <div className='Website-Logo'>
-            <img className='MAIN_LOGO' src='Main_LOGO.png' alt='Website Logo' />
+            <img className='MAIN_LOGO' src='MAINLOGO.png' alt='Website Logo' />
         </div>
         <div className='Website-title'>
           <div className='Title'>OPERATING SYSTEMS VIRTUAL LAB</div>
