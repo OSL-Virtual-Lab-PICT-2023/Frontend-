@@ -22,7 +22,33 @@
 }
 
 
+/* NAV BAR  */
+                .Navbar1{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 2%;
+                }
+                .Navigationbar{
+                    display: flex;
+                    justify-content: space-around;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 5px;
+                    
+                    width: 80%;
+                    height: 7vh;
+                    background-color: #6adede;
+                    font-size: large;
+                }   
+                .Navigationbar text{
+                    height: 80%;
+                    width: 100%;
+                }
+
+
+
 /* UPPER MAIN PAGE  */
+                
 
 
 
@@ -88,9 +114,18 @@
 
                 .Upper-mainpage{
                     display: flex;
+                    justify-content: center;
                     height: 110vh;
-                    margin-top: 2%;
+                    /* margin-top: 2%; */
                     margin-bottom: 2%;
+                }
+                .menus{
+                    border: 1px solid white;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                 }
 
                 /* MAIN TABLE  */
@@ -101,11 +136,18 @@
                     overflow-x: hidden;
                     display: flex;
                     flex-direction: column;
+                    align-items: center;
                 }
+                .Navbar2{
+                    display: none;
+                }
+                
                 .filterdata{
                     overflow-x: auto;
                     display: flex;
                     flex-direction: column;
+                    width: 100%;
+                    
                 }
 
 
@@ -241,6 +283,14 @@
                 .Page{
                     margin: 0%;
                 }
+                .Navbar1{
+                    display: none;
+                }
+                .Navbar2{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
                 .filterdata{
                     /* display: flex; */
                     overflow-x: hidden;
@@ -248,7 +298,8 @@
                 .Upper-mainpage{
                     display: flex;
                     flex-direction: column;
-                    height: 150vh;
+                    justify-content: flex-start;
+                    height: 200vh;  
                 }
                 .info{
                     width: 100%;
@@ -259,6 +310,7 @@
                     display: flex;
                     flex-direction: column;
                     overflow-x: auto;
+                    overflow-y: auto;
                 }
                 .contact{
                     border-bottom: 1px solid white;
@@ -268,5 +320,8 @@
                 }
                 .Social-media{
                     border-bottom: 1px solid white;
+                }
+                .Lower-body{
+                    height: auto;
                 }
             }

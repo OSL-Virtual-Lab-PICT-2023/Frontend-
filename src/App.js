@@ -9,7 +9,7 @@ import "./styles/Content.css";
 import "./styles/headerr.css";
 import './styles/TeamMemberCard.css'; 
 import './styles/spinner.css';
-import './App.css'
+import './App.css';
 
 import Headerr from './components/Headerr.js';
 import { BrowserRouter, Routes, Route } from "react-router-dom";

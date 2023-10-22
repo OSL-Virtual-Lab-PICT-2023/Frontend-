@@ -31,15 +31,22 @@ const Content = () => {
     <div className='Background'>
       <div className='Page'>
         <div className='mainpage'>
-        <div className='Uppermostmainpage'>
+              <div className='Uppermostmainpage'>
                 <div className='Upperbody'>
                   <div className='Upperbody-text'>
                   WELCOME To the operating Systems Virtual Lab by PICT
                   </div>
                 </div>
               </div>
+              <div className='Navbar1'>
+                <div className='Navigationbar'>
+                    <div className='menus'>Option 1</div>
+                    <div className='menus'>Option 2</div>
+                    <div className='menus'>Option 3</div>
+                    <div className='menus'>About US</div>
+                </div>
+              </div>  
               <div className='Upper-mainpage'>
-                
                 <div className='info'> 
                     <div className='Video'>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/krzXKGKM0hg?si=3kz0a8EnGCAMMGIC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -61,7 +68,14 @@ const Content = () => {
                     </div>
                 </div>
                 <div className="main-content">
-              
+                          <div className='Navbar2'>
+                          <div className='Navigationbar'>
+                              <div className='menus'>Option 1</div>
+                              <div className='menus'>Option 2</div>
+                              <div className='menus'>Option 3</div>
+                              <div className='menus'>About US</div>
+                          </div>
+                        </div> 
                           <div className='filterdata'>
                           <Filter filterData={filterData} category={category} setcategory={setcategory}></Filter>
                           
