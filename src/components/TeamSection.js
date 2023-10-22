@@ -30,7 +30,7 @@ const TeamSection = () => {
   return (
     
     <> <div className="our-team"  sm={12} md={4}><h1>Our Team</h1></div>
-    <Container>
+    <div className='Mentor'>
       <Row className='mentor-div'>
         {teamMentor.map((member, index) => (
           <Col key={index} sm={12} md={6} className='mentor-card'>
@@ -44,7 +44,7 @@ const TeamSection = () => {
           </Col>
         ))}
       </Row>
-    </Container>
+    </div>
 
     <Container >
       <Row className='team-div'>

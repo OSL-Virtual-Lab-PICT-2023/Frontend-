@@ -23,6 +23,7 @@ import EmailVerify from './AdminPannel/EmailVerify';
 import ResetPassword from './AdminPannel/ResetPassword';
 import ContentForm from './AdminPannel/ContentForm';
 import Contentt from './AdminPannel/Contentt';
+import TeamSection from './components/TeamSection';
 const App = () => {
   return (
     <>
@@ -35,6 +36,7 @@ const App = () => {
           <Route path='/login' element={<Login />} />
           <Route path='/forgot-password' element={<ForgotPassword />} />
           <Route path='/register' element={<Register />} />
+          <Route path='/TeamSection' element={<TeamSection />} />
           <Route path='/AdminPanel/*' element={<AdminPanel />} />
           <Route path='/user-profile' element={<AdminPanel/>} />
           <Route path='/AdminPanel/user-profile/add-content' element={<ContentForm></ContentForm>} />
@@ -49,3 +51,4 @@ const App = () => {
 }
 
 export default App;
+  

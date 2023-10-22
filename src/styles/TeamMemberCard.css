@@ -5,8 +5,16 @@
     box-sizing: border-box;
    
 }
+
+
+
+
+
+
+
+
 .our-team{
-    display: grid;
+    display: flex;
     justify-content: center;
     width: 100%;
 
@@ -38,7 +46,7 @@
    background-color: #fff;
 
   
-  overflow: hidden; /* Ensure content stays within the rounded container */
+  overflow: hidden; 
   transition: transform 0.3s ease-in-out;
   max-width: 200px;
   margin: 45px;
@@ -46,7 +54,7 @@
 .team-member-title  {
     display: flex;
     justify-content: center;
-   color: violet;
+   color: black;
     
 
 }
@@ -61,10 +69,6 @@
 .social-icon:hover{
     color: #c42108;
 }
-/* .mentor-div{
-  
-    padding-left: 9rem;
-} */
 
 @media (min-width:995px) and (max-width:1280px){
     .mentor-div{

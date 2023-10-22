@@ -2,15 +2,21 @@ import React,{useEffect,useState} from 'react'
 import { apiUrl,filterData } from './FilterData'
 import { toast } from "react-toastify";
 import Spinner from './Spinner';
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Filter from './Filter';
 import ContentTable from './ContentTable';
 
-
 const Content = () => {
+  const navigate = useNavigate();
+  const Team = () => navigate('/TeamSection');
+
+  
   const [featuredata,setfeaturedata]=useState([]);
   const[loading,setloading]=useState(true);
   const [category,setcategory]=useState(filterData[0].title);
+
+
   async function fetchdata(){
     setloading(true);
     try{
@@ -19,13 +25,15 @@ const Content = () => {
       setfeaturedata(result.data.data);
     }
     catch(error){
-    toast.error("Something went wrong");
+      toast.error("Something went wrong");
     }
     setloading(false);
   }
   useEffect(()=>{
     fetchdata();
   },[]);
+
+
   return (
     <>
     <div className='Background'>
@@ -43,7 +51,7 @@ const Content = () => {
                     <div className='menus'>Option 1</div>
                     <div className='menus'>Option 2</div>
                     <div className='menus'>Option 3</div>
-                    <div className='menus'>About US</div>
+                    <div className='menus'><span  onClick={Team}>About US</span></div>
                 </div>
               </div>  
               <div className='Upper-mainpage'>
@@ -73,7 +81,7 @@ const Content = () => {
                               <div className='menus'>Option 1</div>
                               <div className='menus'>Option 2</div>
                               <div className='menus'>Option 3</div>
-                              <div className='menus'>About US</div>
+                              <div className='menus'><span  onClick={Team}>About US</span></div>
                           </div>
                         </div> 
                           <div className='filterdata'>

@@ -9,6 +9,7 @@ import Swal from 'sweetalert2';
 
 const Login = () => {
   const navigate = useNavigate();
+  const signup = () => navigate('/Register');
   
   const validationSchema = Yup.object({
     email: Yup.string().email('Invalid email address').required('Email is required'),
@@ -61,11 +62,9 @@ const Login = () => {
     },
   });
   
-  const signup = () => navigate('/Register');
   
-  const handleForgotPassword = () => {
-    navigate('/forgot-password'); // Navigate to the forgot password page
-  };
+  const handleForgotPassword = () => navigate('/forgot-password'); 
+
   
   return (
     <div className='lala'>
