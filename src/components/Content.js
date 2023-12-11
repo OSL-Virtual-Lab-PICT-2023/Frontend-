@@ -42,7 +42,7 @@ const Content = () => {
               <div className='Uppermostmainpage'>
                 <div className='Upperbody'>
                   <div className='Upperbody-text'>
-                  WELCOME To the operating Systems Virtual Lab by PICT
+                  WELCOME To the operating Systems Virtual Lab by Pune Institute Of Computer Technology
                   </div>
                 </div>
               </div>
@@ -104,6 +104,17 @@ const Content = () => {
                 </div>
               </div>
               <div className='Other-resources'>
+                    <div className='heading'>Books</div>
+                    <div className='textbody'>
+                    <img src='dot.png'></img><a href="https://pages.cs.wisc.edu/~remzi/OSTEP/">Operating Systems: Three Easy Pieces</a>
+                    </div>
+                    <div className='textbody'>
+                    <img src='dot.png'></img><a href="http://www.cs.ukzn.ac.za/~hughm/os/notes/os.pdf">Operating System: An introduction to Unix,
+and Operating Systems Theory</a>
+                    </div>
+                    
+              </div>
+              <div className='Other-resources'>
                     <div className='heading'>Other Important Resources</div>
                     <div className='textbody'>
                     <img src='dot.png'></img><a href="https://www.geeksforgeeks.org/last-minute-notes-operating-systems/">Last Minute Notes – Operating Systems</a>
@@ -144,10 +155,10 @@ const Content = () => {
                                 Follow Us
                               </div>
                               <div className='Lower-body'>
-                                <a href='https://www.linkedin.com/school/pune-institute-of-computer-technology/'><img src='Linkedin.webp'></img></a>
-                                <a href='https://www.instagram.com/pict.pune/'><img src='insta.webp'></img></a>
-                                <a href='https://twitter.com/PunePict'><img src='x.webp'></img></a>
-                                <a href='https://www.facebook.com/PICTOfficial'><img src='fb.webp'></img></a>
+                                <a href='https://www.linkedin.com/school/pune-institute-of-computer-technology/' target='_blank'><img src='Linkedin.webp'></img></a>
+                                <a href='https://www.instagram.com/pict.pune/' target='_blank'><img src='insta.webp'></img></a>
+                                <a href='https://twitter.com/PunePict' target='_blank'><img src='x.webp'></img></a>
+                                <a href='https://www.facebook.com/PICTOfficial' target='_blank'><img src='fb.webp'></img></a>
                             </div>
                         </div>
                 </div>

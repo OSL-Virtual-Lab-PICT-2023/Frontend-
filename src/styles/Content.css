@@ -27,6 +27,7 @@
                     display: flex;
                     justify-content: center;
                     margin-top: 2%;
+                    display: none;
                 }
                 .Navigationbar{
                     display: flex;
@@ -163,6 +164,8 @@
                     border-radius: 8px;
                     margin: 2%;
                     margin-bottom: 3%;
+                    /* display: flex;
+                    justify-content: flex-end; */
                 }
                 ::-webkit-scrollbar {
                     display: none;
@@ -290,6 +293,7 @@
                     width: 100%;
                     display: flex;
                     justify-content: center;
+                    display: none;
                 }
                 .filterdata{
                     /* display: flex; */
@@ -322,6 +326,10 @@
                     border-bottom: 1px solid white;
                 }
                 .Lower-body{
+                    height: auto;
+                }
+                img{
+                    width: 20px;
                     height: auto;
                 }
             }
