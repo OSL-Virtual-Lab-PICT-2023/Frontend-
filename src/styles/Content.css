@@ -49,8 +49,6 @@
 
 
 /* UPPER MAIN PAGE  */
-                
-
 
 
                 .Uppermost-mainpage{
@@ -77,6 +75,7 @@
                     align-items: center;
                     animation: slideRightToLeft 30s linear infinite;
                     /* overflow-x: hidden;  */
+                    /* display: none; */
                 }
                 
                 .Upper-body-text{
@@ -269,12 +268,18 @@
                 }
                 .Lower-body{
                     margin-left: 5%;
+                    display: flex;
+                    flex-direction: column;
                 }
                 .Lower-body img{
                     object-fit: cover;
                     width: 10%;
                     margin: 0 4%;
                     margin-left: 0%;
+                }
+                .Lower-body a{
+                    color: white;
+                    text-decoration: none;
                 }
 
 
@@ -328,8 +333,8 @@
                 .Lower-body{
                     height: auto;
                 }
-                img{
+                Lower-header a{
                     width: 20px;
-                    height: auto;
+                    height: 20px;
                 }
             }

@@ -155,10 +155,10 @@ and Operating Systems Theory</a>
                                 Follow Us
                               </div>
                               <div className='Lower-body'>
-                                <a href='https://www.linkedin.com/school/pune-institute-of-computer-technology/' target='_blank'><img src='Linkedin.webp'></img></a>
-                                <a href='https://www.instagram.com/pict.pune/' target='_blank'><img src='insta.webp'></img></a>
-                                <a href='https://twitter.com/PunePict' target='_blank'><img src='x.webp'></img></a>
-                                <a href='https://www.facebook.com/PICTOfficial' target='_blank'><img src='fb.webp'></img></a>
+                                <a href='https://www.linkedin.com/school/pune-institute-of-computer-technology/' target='_blank'>LinkedIn</a>
+                                <a href='https://www.instagram.com/pict.pune/' target='_blank'>Instagram</a>
+                                <a href='https://twitter.com/PunePict' target='_blank'>Twitter/X</a>
+                                <a href='https://www.facebook.com/PICTOfficial' target='_blank'>Facebook</a>
                             </div>
                         </div>
                 </div>
